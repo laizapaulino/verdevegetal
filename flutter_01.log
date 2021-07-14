@@ -1,0 +1,53 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run --release
+
+## exception
+
+SocketException: SocketException: OS Error: Success, errno = 0, port = 0
+
+```
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel beta, 2.0.1, on Linux, locale pt_BR.UTF-8)
+    • Flutter version 2.0.1 at /home/laiza/snap/flutter/common/flutter
+    • Framework revision c5a4b4029c (4 weeks ago), 2021-03-04 09:47:48 -0800
+    • Engine revision 40441def69
+    • Dart version 2.12.0
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 30.0.3)
+    • Android SDK at /home/laiza/Android/Sdk
+    • Platform android-30, build-tools 30.0.3
+    • Java binary at: /snap/android-studio/current/android-studio/jre/bin/java
+    • Java version OpenJDK Runtime Environment (build 1.8.0_242-release-1644-b3-6222593)
+    • All Android licenses accepted.
+
+[✓] Chrome - develop for the web
+    • Chrome at google-chrome
+
+[✓] Android Studio
+    • Android Studio at /snap/android-studio/current/android-studio
+    • Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    • Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+    • android-studio-dir = /snap/android-studio/current/android-studio
+    • Java version OpenJDK Runtime Environment (build 1.8.0_242-release-1644-b3-6222593)
+
+[✓] IntelliJ IDEA Community Edition (version 2020.3)
+    • IntelliJ at /home/laiza/.local/share/JetBrains/Toolbox/apps/IDEA-C/ch-0/203.7717.56
+    • Flutter plugin version 55.0.4
+    • Dart plugin version 203.7759
+
+[✓] Connected device (2 available)
+    • M2004J19C (mobile) • 2bfdd4f80405 • android-arm64  • Android 10 (API 29)
+    • Chrome (web)       • chrome       • web-javascript • Google Chrome 89.0.4389.90
+
+• No issues found!
+```
